@@ -4,7 +4,7 @@ LEMP refers to a collection of open-source software that is commonly used togeth
 ## LEMP-Stack-101 : EC2 instace and Virtual Ubuntu Server
 AWS acoount was already created in LAMP stack project. I have created another EC2 instance for LEMP Stack Implentation.
 
-### Created New EC2 instance and Setting up 
+### Created New EC2 instance and Setting up Ubuntu 
 - First, created an ec2 instance named it as "Second-instance-aws" in a region "Ohio" with instance type "t2.micro", AMI (Amazon Machine Image ) as "ubuntu", previously created security group having inbound rules for (SSH,HTTP,HTTPS) and all other required configuration was selected as default here.
  ![EC2 Instance](./images/t2_micro.png)
  ![EC2 Instance](./images/securitygroup.png)
